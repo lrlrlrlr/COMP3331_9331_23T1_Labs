@@ -25,7 +25,7 @@ For M14A students
       - calculate
       ![image](https://user-images.githubusercontent.com/27357380/220208534-318783c0-d0ea-496d-beda-a4af81aa0860.png)
 
- - [recording](https://unsw.zoom.us/rec/share/bog4Y1CNXu86qUZLxQy2CioKgVD6u5zByi4y2eQrKnehPs6FDwxbM0hWqLugG0n9.OwngSptc1JGPwdTG?startTime=1676861413000
+ - [recording](https://unsw.zoom.us/rec/share/bog4Y1CNXu86qUZLxQy2CioKgVD6u5zByi4y2eQrKnehPs6FDwxbM0hWqLugG0n9.OwngSptc1JGPwdTG?startTime=1676861413000)
 Passcode: Re3!&8C+
 
 
@@ -45,5 +45,5 @@ Passcode: Re3!&8C+
       Furthermore do most of the ETag generators include the information of the system specific inode so moving a file to a different drive may change the ETag as well.
       ```
 
-
- 
+    - Exercise 5: Please refer to this 5min video: https://www.youtube.com/watch?v=9ARKigLwJfM&ab_channel=RUILI
+  - Recording: to be uploaded
