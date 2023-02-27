@@ -26,5 +26,24 @@ For M14A students
       ![image](https://user-images.githubusercontent.com/27357380/220208534-318783c0-d0ea-496d-beda-a4af81aa0860.png)
 
  - [recording](https://unsw.zoom.us/rec/share/bog4Y1CNXu86qUZLxQy2CioKgVD6u5zByi4y2eQrKnehPs6FDwxbM0hWqLugG0n9.OwngSptc1JGPwdTG?startTime=1676861413000
-Passcode: Re3!&8C+)
+Passcode: Re3!&8C+
+
+
+## Lab2:
+ - quick notes
+   - Exercise 3:
+  ![image](https://user-images.githubusercontent.com/27357380/221456972-412c8647-79bc-4311-b01d-6ab92058c93f.png)
+
+   - Exercise 4:
+   ![image](https://user-images.githubusercontent.com/27357380/221456458-220a643a-6a30-479a-994e-bd77681cf853.png)
+     - Etag vs Last-Modified
+      ```
+      If-Modified-Since is compared to the Last-Modified whereas If-None-Match is compared to ETag. 
+      Both Modified-Since and ETag can be used to identify a specific variant of a resource.
+
+      But the comparison of If-Modified-Since to Last-Modified gives you the information whether the cached variant is older or newer whereas the comparison of If-None-Match to ETag just gives you the information whether both are identical or not. 
+      Furthermore do most of the ETag generators include the information of the system specific inode so moving a file to a different drive may change the ETag as well.
+      ```
+
+
  
