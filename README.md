@@ -46,4 +46,4 @@ Passcode: Re3!&8C+
       ```
 
     - Exercise 5: Please refer to this 5min video: https://www.youtube.com/watch?v=9ARKigLwJfM&ab_channel=RUILI
-  - Recording: to be uploaded
+  - Recording:  https://youtu.be/tC9fIMj4wCQ 
