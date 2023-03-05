@@ -47,3 +47,50 @@ Passcode: Re3!&8C+
 
     - Exercise 5: Please refer to this 5min video: https://www.youtube.com/watch?v=9ARKigLwJfM&ab_channel=RUILI
   - Recording:  https://youtu.be/tC9fIMj4wCQ 
+  
+  
+## Lab3:
+ - quick notes
+   - Exercise 3:
+     - Q1: To get the IP address of www.eecs.berkeley.edu, we can use the A (Address) DNS record type. We can use the following command to query the default nameserver: `dig www.eecs.berkeley.edu A`
+     - Q2: use the following command: `dig www.eecs.berkeley.edu CNAME`
+     - Q3: The Authority section of the DNS response contains information about the _____________. The Additional section contains ______________. (google it)
+     - Q4: try command `dig .`
+     - Q5: try command `dig eecs.berkeley.edu NS`
+     - Q6: try command `dig -x 111.68.101.54 PTR`
+     - Q7: try command `dig @129.94.242.33 yahoo.com MX`
+     - Q8: try command `dig @ns1.eecs.berkeley.edu yahoo.com MX`
+     - Q9: To obtain the authoritative answer for the mail servers for Yahoo! Mail, we can use the following command: `dig +trace yahoo.com MX`
+     - Q10: To find the IP address of lyre00.cse.unsw.edu.au, we need to follow the iterative DNS query process by querying the authoritative nameservers for each level of the domain hierarchy. Here are the commands:
+       - `dig NS .`
+       - `dig NS au. @ip_address` (Note: replace the ip_address with the ip address you got from last cmd)
+       - `dig NS edu.au. @ip_address` 
+       - `dig NS unsw.edu.au. @ip_address`
+       - `dig NS cse.unsw.edu.au. @ip_address`
+       - `dig A lyre00.cse.unsw.edu.au. @ip_address` -> got the answer, notice the flags should contain "aa"
+       - Please watch the recording for better understanding. 
+     
+     
+     - Q11: Yes, but why? (Search)
+
+    - Exercise 4: Here are some general steps you can follow to write this web server:  
+
+      1.  Parse the command line arguments to get the port number to listen on.
+      1. Create a socket using the appropriate socket library for your programming language (e.g., socket library in Python).
+      1. Bind the socket to the specified port number using the bind method.
+      1. Listen for incoming connections using the listen method.
+      1. In a loop, accept incoming connections using the accept method. This will return a new socket object that you can use to communicate with the client.
+      1. Read the HTTP request from the client using the recv method of the new socket object.
+      1. Parse the HTTP request to determine the requested file.
+      1. Open the requested file and read its contents.
+      1. Construct an HTTP response message that includes the file contents along with appropriate header lines.
+      1. Send the response over the TCP connection to the requesting browser using the send method of the new socket object.
+      1. Close the new socket object.
+      1. You can use the split method of the str class to parse the HTTP request, and the os library to check if a file exists.
+
+            Make sure to handle errors appropriately, and test your web server by accessing it using a web browser on the same machine.
+    
+  - Recording (including exercise 4 demo code): to_be_uplaoded
+
+
+     
