@@ -90,7 +90,8 @@ Passcode: Re3!&8C+
 
             Make sure to handle errors appropriately, and test your web server by accessing it using a web browser on the same machine.
     
-  - Recording (including exercise 4 demo code): to_be_uplaoded
+  - Recording (including exercise 4 demo code): https://unsw.zoom.us/rec/share/1bL2YzgronP3bHKmlZtPw5SkS1OYNzusYbGs81TaLRO4YaUXiotncx0YY5RGJd63.Ma4mSkpcrJyrnbGA 
+Passcode: L30rh^^j
 
 
      
