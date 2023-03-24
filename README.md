@@ -8,6 +8,41 @@ For M14A students
  - Monday 14:00 (M14A) lab link:  https://unsw.zoom.us/my/ruitut   
  - [MyRecordings](https://www.youtube.com/playlist?list=PL62Uy8LvT4Famj6_UVCQHf8aajP0ySZkL)  
  
+ 
+ 
+
+
+## Assignment demo 
+  I will have assignment demo session for python.  
+  - Schedule:  https://webcms3.cse.unsw.edu.au/COMP3331/23T1/resources/85995  
+  - Link: https://unsw.zoom.us/my/ruitut   
+  - Schedule:
+    - W5: week assignment overview: How to start from 0. basic code demo.
+      - What is the task?
+      - play around with the demo code
+
+
+    - W7: Assignment 101, how to get started with the template code (multi-threading)
+      - app design / protocol design
+      - data structure
+      - basic python operations
+        - how to create/delete/modify txt file
+        - how to send/receive json object between server/clients
+        - Recording link: to be uploaded  
+        
+    - W8: Application protocol design and data structure
+
+
+    - W9: Testing, code style, submission Q&A
+        - report content
+        	- 1. how to run the script
+        	- 2. what is your application protocol and data structre?
+        	- 3. any bug or trade-off you made for your program? (for example, you have significant delay on UDP file transmission to make sure the reliable file transfer)
+        	- ps: 1~2 pages is enough, make it simple and clear.
+        - new credentials.txt and testcase
+        - submission checklist
+
+
 ## Lab1：  
  - quick notes
    - Please use **[VLAB](https://taggi.cse.unsw.edu.au/FAQ/Really_quick_guide_to_VLAB/)** to run all the commands!
@@ -94,4 +129,9 @@ Passcode: Re3!&8C+
 Passcode: L30rh^^j
 
 
-     
+
+
+  
+## Tut01:
+ - recording: https://youtu.be/meJ3keKIEZ4 
+ - useful materials:  https://github.com/lrlrlrlr/COMP3331_9331_21T3/tree/main/9331review 
