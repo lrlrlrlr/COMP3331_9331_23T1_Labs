@@ -135,3 +135,27 @@ Passcode: L30rh^^j
 ## Tut01:
  - recording: https://youtu.be/meJ3keKIEZ4 
  - useful materials:  https://github.com/lrlrlrlr/COMP3331_9331_21T3/tree/main/9331review 
+ 
+ 
+## Lab4:
+ - Exercise 1: Understanding TCP using Wireshark
+   - Q1 & Q2:
+    ![image](https://user-images.githubusercontent.com/27357380/227826086-1d46a547-b599-4336-8852-aa2f0a42d124.png)  
+   - Q3 - Q4
+   
+     EstimatedRTT = 0.875 * EstimatedRTT + 0.125 * Sample RTT.   
+     | segment | length | seq. number | sent time | received time | SampleRTT | EstimatedRTT |  
+     |-|-|-|-|-|-|-|
+     | 1 | 232129013 | 565 |0.026477 |0.053937 |	0.02746 |  0.02746 |  
+     | 2 | .. | .. |.. |.. |.. | ..|
+     | 3 | .. | .. |.. |.. |.. |  ..|
+     
+   - Q5:  
+     - check the SYN/ACK packet, there is a "window" header in the TCP section.
+   - Q6:  
+     - Generate a Sequence Numbers(Stevens) Graph
+   - Q7:
+     - Please observe the packet #53~#62, why we have only 4 ACK for 6 packets?
+   - Q8:
+     - throughput = (#202_seq - #4_seq - 1) / (#202_ack_time - #4_seq_time)
+     
