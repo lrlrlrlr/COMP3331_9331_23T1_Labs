@@ -29,6 +29,7 @@ For M14A students
         - how to create/delete/modify txt file
         - how to send/receive json object between server/clients
         - Recording link: to be uploaded  
+        - Demo code used in the tutorial: https://github.com/lrlrlrlr/COMP3331_9331_23T1_Labs/tree/main/demo%20w7 
         
     - W8: Application protocol design and data structure
 
