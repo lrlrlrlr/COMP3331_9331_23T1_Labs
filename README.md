@@ -32,9 +32,10 @@ For M14A students
         - Demo code used in the tutorial: https://github.com/lrlrlrlr/COMP3331_9331_23T1_Labs/tree/main/demo%20w7 
         
     - W8: Application protocol design and data structure
-
+        - Demo code used in the tutorial: https://github.com/lrlrlrlr/COMP3331_9331_23T1_Labs/tree/main/demo%20w8 
 
     - W9: Testing, code style, submission Q&A
+        - TODO: I will upload some testcase here, feel free to try it with your program. But it is not offcial testcase and it will not represent how will the tutors test your program!  
         - report content
         	- 1. how to run the script
         	- 2. what is your application protocol and data structre?
