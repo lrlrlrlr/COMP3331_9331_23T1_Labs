@@ -12,6 +12,8 @@ For M14A students
  - recording: https://www.youtube.com/watch?v=FaYmlSs0cKM&list=PL62Uy8LvT4FYDyLkP6xBvSBGJKydB1tRp&index=1&pp=gAQBiAQB  
  
 ## Testcase for assignment:
+ - Strongly recommend to have a check of the Section 9(Marking Policy) of the SPEC first.
+ - This is not offcial testcase and it will not represent how will the tutors test your program!  
  ### prep:
   1. move your code to VLab Env (**very important**)
   1. use this .txt file to do the test: https://github.com/lrlrlrlr/COMP3331_9331_23T1_Labs/blob/main/ruitest.txt 
