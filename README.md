@@ -10,7 +10,39 @@ For M14A students
  
  
  
+## Testcase for assignment:
+ ### prep:
+  1. move your code to VLab Env (**very important**)
+  1. use this .txt file to do the test: https://github.com/lrlrlrlr/COMP3331_9331_23T1_Labs/blob/main/ruitest.txt 
+  1. put your sender and receiver in different folder (they should be able to run stand alone)
+ ### section 1:  Stop and Wait
+  steps:  
+  1. run your program with:
+  `python3 receiver.py 56007 59606 FileToReceive.txt 0 0`  
+  `python3 sender.py 59606 56007 test1.txt 1000 500`  
+  
+  2. check:
+   - log file should be able to generated in both side (sender log and receiver log)
+     - check the sender log file:
+       - if the format is correct 
+       - if the timer is making sense
+       - check if there is any SYN/SYNACK packet at the beggining
+       - if the sequence number is random number?
+       - if any packet loss in the log(should not have any loss)
+       - if there is FIN/FINACK at the end of the log
+     - check the receiver log:
+       - if the format is correct
+       - if the timer is correct (not sync with the sender)
+       - if SYN/FIN packets received
+     - check the receiver side txt file
+       - if the filesize the same?
+       - if the file content the same? (make sure have correct order, you can use `diff` command to do the cmp in linux)
 
+  
+ ### section 2: pipelining (sliding window)
+ 
+ 
+ 
 
 ## Assignment demo 
   I will have assignment demo session for python.  
@@ -41,7 +73,7 @@ For M14A students
         	- 2. what is your application protocol and data structre?
         	- 3. any bug or trade-off you made for your program? (for example, you have significant delay on UDP file transmission to make sure the reliable file transfer)
         	- ps: 1~2 pages is enough, make it simple and clear.
-        - new credentials.txt and testcase
+        - new text file
         - submission checklist
 
 
