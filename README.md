@@ -8,7 +8,8 @@ For M14A students
  - Monday 14:00 (M14A) lab link:  https://unsw.zoom.us/my/ruitut   
  - [MyRecordings](https://www.youtube.com/playlist?list=PL62Uy8LvT4Famj6_UVCQHf8aajP0ySZkL)  
  
- 
+## FINAL EXAM PREP
+ - recording: https://www.youtube.com/watch?v=FaYmlSs0cKM&list=PL62Uy8LvT4FYDyLkP6xBvSBGJKydB1tRp&index=1&pp=gAQBiAQB  
  
 ## Testcase for assignment:
  ### prep:
