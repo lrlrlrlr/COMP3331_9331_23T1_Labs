@@ -27,9 +27,11 @@ For M14A students
        - if the format is correct 
        - if the timer is making sense
        - check if there is any SYN/SYNACK packet at the beggining
-       - if the sequence number is random number?
+       - if the sequence number is random number? 
+       - if the seq_no calculation correct? (for syn and fin)
        - if any packet loss in the log(should not have any loss)
        - if there is FIN/FINACK at the end of the log
+
      - check the receiver log:
        - if the format is correct
        - if the timer is correct (not sync with the sender)
@@ -62,11 +64,32 @@ For M14A students
        - if the file content the same? (make sure have correct order, you can use `diff` command to do the cmp in linux)
 
   3. repeat the test with different param:  
-       - try different rto value for the sender.py
+       - try different max_win value for the sender.py
         - `python3 sender.py 59606 56007 test1.txt 5000 500`  
         - `python3 sender.py 59606 56007 test1.txt 10000 500`  
 
- 
+
+ ### section 3: unreliable transmission (sliding window)
+   steps:  
+  1. run your program with:  
+  `python3 receiver.py 56007 59606 FileToReceive.txt 0.5 0.5`  
+  `python3 sender.py 59606 56007 test1.txt 4000 500`  
+  
+  2. check:
+   - log file should be able to generated in both side (sender log and receiver log)
+     - check the sender log file:
+       - if around hale of the packets lost (should have packet lose as we have 50% of chance to lose all types of packet)
+       - if any timeout triggered (could be), if so, will the oldest packet be retranmitted? (make sure only the oldest one)
+       - if the sequence number is calculated correctly
+
+     - check the receiver side txt file
+       - if the file content the same? (make sure have correct order, you can use `diff` command to do the cmp in linux)
+
+  3. repeat the test with different param:  
+       - try different flp/rlp value for the sender.py
+        - `python3 receiver.py 56007 59606 FileToReceive.txt 0.1 0.1`    
+        - `python3 receiver.py 56007 59606 FileToReceive.txt 0.9 0.9`    
+
  
 
 ## Assignment demo 
