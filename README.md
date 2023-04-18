@@ -38,9 +38,34 @@ For M14A students
        - if the filesize the same?
        - if the file content the same? (make sure have correct order, you can use `diff` command to do the cmp in linux)
 
-  
+  3. repeat the test with different param:  
+       - try different rto value for the sender.py
+        - `python3 sender.py 59606 56007 test1.txt 1000 100`   
+        - `python3 sender.py 59606 56007 test1.txt 1000 500`  
+        - `python3 sender.py 59606 56007 test1.txt 1000 2500`  
+
  ### section 2: pipelining (sliding window)
- 
+   steps:  
+  1. run your program with:
+  `python3 receiver.py 56007 59606 FileToReceive.txt 0 0`  
+  `python3 sender.py 59606 56007 test1.txt 5000 500`  
+  
+  2. check:
+   - log file should be able to generated in both side (sender log and receiver log)
+     - check the sender log file:
+       - if the format is correct 
+       - if the timer is making sense
+       - if the sender is able to send 5 packets in a row?
+     - check the receiver log:
+       - if the format is correct
+     - check the receiver side txt file
+       - if the file content the same? (make sure have correct order, you can use `diff` command to do the cmp in linux)
+
+  3. repeat the test with different param:  
+       - try different rto value for the sender.py
+        - `python3 sender.py 59606 56007 test1.txt 5000 500`  
+        - `python3 sender.py 59606 56007 test1.txt 10000 500`  
+
  
  
 
